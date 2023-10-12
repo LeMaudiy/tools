@@ -72,6 +72,7 @@ def main():
     print("6: Scan global")
     choice = input("Entrez le numéro du scan que vous voulez effectuer: ")
     url = input("Entrez l'URL à tester: ")
+    
     output = scan(choice, url)
 
     print("Résultats du scan:")
